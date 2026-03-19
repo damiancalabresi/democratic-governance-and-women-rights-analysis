@@ -1,0 +1,20 @@
+name: dem-gov-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyter
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - geopandas
+  - pip
+  - pip:
+    - geodatasets
+    - country_converter
+    - pycountry
